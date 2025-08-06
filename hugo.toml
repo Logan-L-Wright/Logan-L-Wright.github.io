@@ -1,0 +1,67 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Logan Wright'
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+enableEmoji = true
+
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+
+[pagination]
+    pagerSize = 6
+
+[markup.highlight]
+    style = "github-dark"
+    noClasses = false
+
+[params]
+    author = "Logan Wright"
+    info = "Tech Lover & Hobbyist Programmer"
+    description = "Logan Wright's personal website"
+    keywords = "blog,developer,personal,tech,IT"
+    avatarurl = "images/avatar.png"
+    since = 2025
+
+    enableTwemoji = true
+
+    colorScheme = "dark"
+    hidecolorschemetoggle = false
+
+    # customCSS = ["css/custom.css"]
+    # customSCSS = ["scss/custom.scss"]
+    # customJS = ["js/custom.js"]
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+    author = "authors"
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fa-brands fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/itstherampage"
+
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa-brands fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/loganlwright/"
+
+# Menu links
+[[menu.main]]
+    name = "Projects"
+    weight = 1
+    url  = "projects/"
+
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "about/"
