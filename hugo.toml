@@ -47,7 +47,7 @@ unsafe = true
     name = "Github"
     icon = "fa-brands fa-github fa-2x"
     weight = 1
-    url = "https://github.com/itstherampage"
+    url = "https://github.com/Logan-L-Wright"
 
 [[params.social]]
     name = "LinkedIn"
