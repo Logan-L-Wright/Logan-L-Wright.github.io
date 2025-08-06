@@ -40,7 +40,6 @@ unsafe = true
     category = "categories"
     series = "series"
     tag = "tags"
-    author = "authors"
 
 # Social links
 [[params.social]]
@@ -59,9 +58,9 @@ unsafe = true
 [[menu.main]]
     name = "Projects"
     weight = 1
-    url  = "projects/"
+    url  = "/posts/"
 
 [[menu.main]]
-    name = "About"
+    name = "About Me"
     weight = 2
-    url = "about/"
+    url = "/about"
