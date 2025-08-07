@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = "https://logan-l-wright.github.io/"
 languageCode = 'en-us'
 title = 'Logan Wright'
 theme = "hugo-coder"
@@ -64,3 +64,9 @@ unsafe = true
     name = "About Me"
     weight = 2
     url = "/about"
+
+[[menu.main]]
+    name = "Resume"
+    weight = 3
+    url = "/resume"
+
