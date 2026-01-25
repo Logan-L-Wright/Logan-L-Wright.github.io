@@ -11,25 +11,31 @@ externalLink = ""
 series = []
 +++
 
-
 ## Objective
 
- * Build a computer that operates faster, handles increased multitasking, and can perform well running newer games on higher graphic settings.
+* Design and build a high-performance desktop PC optimized for intensive multitasking and modern gaming.
+
+## Why?
+
+* Previous hardware was no longer sufficient to meet current performance demands for productivity and gaming.
+
 ## Tasks Completed
 
-* Researched computer parts that are compatible, making use of sites like [pcpartpicker.com](https://pcpartpicker.com/list/DM4DbL).
-* Assembled the computer, updated the BIOS, installed Windows 11, and installed necessary drivers.
+* **Research:** Identified compatible high-end components using tools like [pcpartpicker.com](https://pcpartpicker.com/list/DM4DbL)
+* **Assembly:** Built the system from the ground up
+* **Configuration:** Performed a BIOS update to the latest stable version, followed by a clean installation of Windows 11 and all necessary hardware drivers.
+
 ## Outcome
 
-* Gained further experience in researching compatibility based on hardware needs, assembling computer systems, and installing and configuring necessary software.
-* Objective was completed.
+* Gained valuable experience in hardware compatibility research, system assembly, and software configuration.
+* Successfully completed the build, resulting in a stable, high-performance workstation.
 
 ## Images 
 
 <details>
   <summary>Show / hide images</summary>
 
-<img src="/images/projectimages/pcbuild/1.png" alt="PC Build 1" style="width:100; height:auto;">
+<img src="/images/projectimages/pcbuild/1.png" alt="PC Build 1" style="width:100%; height:auto;">
 
 <img src="/images/projectimages/pcbuild/2.jpeg" alt="PC Build 2" style="width:50%; height:auto;">
 
