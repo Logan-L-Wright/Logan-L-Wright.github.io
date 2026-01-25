@@ -40,12 +40,18 @@ series = ["Part 1"]
 <details>
   <summary>Show / hide images</summary>
 
-<img src="/images/projectimages/active-directory-setup/client.jpg" alt="client" style="width:100%; height:auto;">
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
+    
+<a data-fslightbox="ad-setup" href="/images/projectimages/active-directory-setup/client.jpg">
+    <img src="/images/projectimages/active-directory-setup/client.jpg" alt="Client VM" style="width:48%; height:auto; border-radius: 8px; cursor: pointer;">
+</a>
 
-<img src="/images/projectimages/active-directory-setup/server.png" alt="server" style="width:100; height:auto;">
+<a data-fslightbox="ad-setup" href="/images/projectimages/active-directory-setup/server.png">
+    <img src="/images/projectimages/active-directory-setup/server.png" alt="Server VM" style="width:48%; height:auto; border-radius: 8px; cursor: pointer;">
+</a>
 
-
-  </details>
+  </div>
+</details>
 
 ## Troubleshooting Notes
 

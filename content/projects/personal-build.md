@@ -33,14 +33,24 @@ series = []
 ## Images 
 
 <details>
-  <summary>Show / hide images</summary>
+<summary>Show / hide images</summary>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
+    
+<a data-fslightbox="pc-build" href="/images/projectimages/pcbuild/1.png">
+    <img src="/images/projectimages/pcbuild/1.png" alt="PC Build 1" style="width:48%; height:auto; border-radius: 8px; cursor: pointer;">
+</a>
 
-<img src="/images/projectimages/pcbuild/1.png" alt="PC Build 1" style="width:100%; height:auto;">
+<a data-fslightbox="pc-build" href="/images/projectimages/pcbuild/2.jpeg">
+    <img src="/images/projectimages/pcbuild/2.jpeg" alt="PC Build 2" style="width:48%; height:auto; border-radius: 8px; cursor: pointer;">
+</a>
 
-<img src="/images/projectimages/pcbuild/2.jpeg" alt="PC Build 2" style="width:50%; height:auto;">
+<a data-fslightbox="pc-build" href="/images/projectimages/pcbuild/3.jpeg">
+    <img src="/images/projectimages/pcbuild/3.jpeg" alt="PC Build 3" style="width:48%; height:auto; border-radius: 8px; cursor: pointer;">
+</a>
 
-<img src="/images/projectimages/pcbuild/3.jpeg" alt="PC Build 3" style="width:50%; height:auto;">
+<a data-fslightbox="pc-build" href="/images/projectimages/pcbuild/4.jpeg">
+    <img src="/images/projectimages/pcbuild/4.jpeg" alt="PC Build 4" style="width:48%; height:auto; border-radius: 8px; cursor: pointer;">
+</a>
 
-<img src="/images/projectimages/pcbuild/4.jpeg" alt="PC Build 4" style="width:50%; height:auto;">
-
+</div>
 </details>

@@ -33,7 +33,6 @@ unsafe = true
 
     # customCSS = ["css/custom.css"]
     # customSCSS = ["scss/custom.scss"]
-    # customJS = ["js/custom.js"]
 
 [taxonomies]
     category = "categories"
