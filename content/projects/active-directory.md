@@ -40,7 +40,9 @@ series = ["Part 1"]
 ## Images 
 
 <details>
-  <summary>Show / hide images</summary>
+
+
+  <summary>Show / hide images (Click to enlarge)</summary>
 
   <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
     

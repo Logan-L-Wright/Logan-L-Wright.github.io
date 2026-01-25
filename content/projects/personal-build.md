@@ -33,7 +33,7 @@ series = []
 ## Images 
 
 <details>
-<summary>Show / hide images</summary>
+<summary>Show / hide images (Click to enlarge)</summary>
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
     
 <a data-fslightbox="pc-build" href="/images/projectimages/pcbuild/1.png">
