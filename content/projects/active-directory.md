@@ -1,7 +1,7 @@
 +++
 date = '2026-01-24T21:50:51-05:00'
 draft = false
-title = 'Active Directory Setup & Cloud Sync'
+title = 'Active Directory Setup & Connect Sync'
 description = "Setting up Active Directory using VMware Workstation Pro"
 authors = ["Logan Wright"]
 series = ["Part 1"]
@@ -62,9 +62,9 @@ series = ["Part 1"]
 
 ## Where to go from here?
 
-I would like to further explore connecting on-premises infrastructure to the cloud using Microsoft Entra ID and Microsoft Entra Cloud Sync. To begin this process, I purchased a Microsoft 365 Business Premium license.
+I would like to further explore connecting on-premises infrastructure to the cloud using Microsoft Entra ID and Microsoft Entra Connect Sync. To begin this process, I purchased a Microsoft 365 Business Premium license.
 
-Using this tenant, I created a @LoganITLearn.onmicrosoft.com domain and successfully installed the Cloud Sync agent onto the domain controller.
+Using this tenant, I created a @LoganITLearn.onmicrosoft.com domain and successfully installed the Connect Sync agent onto the domain controller.
 
 I then created a test user, "Jerry Jones," using Active Directory Users and Computers (ADUC). Once the account synced to Entra ID, I assigned licenses to both Jerry and myself. To verify the sync, I signed into Jerry’s account on a client VM and accessed the web version of Outlook. As shown in the images below, I successfully sent and received a test email.
 
