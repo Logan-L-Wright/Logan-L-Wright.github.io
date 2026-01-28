@@ -1,7 +1,7 @@
 +++
 date = '2026-01-24T21:50:51-05:00'
 draft = false
-title = 'Active Directory Setup'
+title = 'Active Directory Setup & Cloud Sync'
 description = "Setting up Active Directory using VMware Workstation Pro"
 authors = ["Logan Wright"]
 series = ["Part 1"]
@@ -33,11 +33,13 @@ series = ["Part 1"]
 
 ## Outcome
 
-* Successfully joined a Windows 11 client VM to a Domain Controller running Windows Server 2025.
+* Successfully joined a Windows 11 client VM to the domain running Windows Server 2025.
 * Gained experience in client-server communication and network configuration.
 * Established a functional "homelab" for future projects involving **Group Policy Objects (GPOs)** and administrative management.
 
-## Images 
+
+
+## Images for project
 
 <details>
 
@@ -56,6 +58,37 @@ series = ["Part 1"]
 
   </div>
 </details>
+
+
+## Where to go from here?
+
+I would like to further explore connecting on-premises infrastructure to the cloud using Microsoft Entra ID and Microsoft Entra Cloud Sync. To begin this process, I purchased a Microsoft 365 Business Premium license.
+
+Using this tenant, I created a @LoganITLearn.onmicrosoft.com domain and successfully installed the Cloud Sync agent onto the domain controller.
+
+I then created a test user, "Jerry Jones," using Active Directory Users and Computers (ADUC). Once the account synced to Entra ID, I assigned licenses to both Jerry and myself. To verify the sync, I signed into Jerry’s account on a client VM and accessed the web version of Outlook. As shown in the images below, I successfully sent and received a test email.
+
+<details>
+
+<summary>Show / hide images (Click to enlarge)</summary>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
+    
+<a data-fslightbox="ad-setup" href="/images/projectimages/active-directory-setup/licenses.png">
+    <img src="/images/projectimages/active-directory-setup/licenses.png" alt="licenses" style="width:48%; height:auto; border-radius: 8px; cursor: pointer;">
+</a>
+
+<a data-fslightbox="ad-setup" href="/images/projectimages/active-directory-setup/email.png">
+    <img src="/images/projectimages/active-directory-setup/email.png" alt="email" style="width:48%; height:auto; border-radius: 8px; cursor: pointer;">
+</a>
+
+  </div>
+</details>
+
+
+
+
+
 
 ## Troubleshooting Notes
 
